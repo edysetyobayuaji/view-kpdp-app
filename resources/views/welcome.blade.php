@@ -27,27 +27,32 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="index.html">
-                    <img class="logo-default scroll-hide" src="web/images/reverselogo.png" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="web/images/reverselogo.png" alt="logo" />
-                    <img class="logo-default scroll-show" src="web/images/reverselogo.png" alt="logo" />
-                    <img class="logo-retina scroll-show" src="web/images/reverselogo.png" alt="logo" />
+                    <img class="logo-default scroll-hide" src="web/images/kpdp.png" alt="logo" />
+                    <img class="logo-retina scroll-hide" src="web/images/kpdp.png" alt="logo" />
+                    <img class="logo-default scroll-show" src="web/images/kpdp.png" alt="logo" />
+                    <img class="logo-retina scroll-show" src="web/images/kpdp.png" alt="logo" />
                 </a>
             </div>
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul id="main-menu">
                 	<li class="dropdown">
-                        <a href="#">Produk</a>
+                        <a href="#">About KPdP</a>
                         <ul>
-							<li class=""><a href="viewcontent/17.html">Hot Rolled Coil/Plate</a>
+							<li class=""><a href="viewcontent/17.html">Sekilas KPdP</a>
 								<ul>
             					</ul>
 
 							</li>
-							<li class=""><a href="viewcontent/18.html">Cold Rolled Coil/Sheet</a>
+							<li class=""><a href="viewcontent/18.html">Visi Misi</a>
 								<ul></ul>
 							</li>
-                             
+							<li class=""><a href="viewcontent/18.html">Coorporate Value</a>
+								<ul></ul>
+							</li>
+							<li class=""><a href="viewcontent/18.html">Sertifikat</a>
+								<ul></ul>
+							</li>
             			</ul>
 
 					</li>
