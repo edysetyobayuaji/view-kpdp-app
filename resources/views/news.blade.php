@@ -18,11 +18,11 @@
 					<div class="row">
 						<div class="col-lg-9">
 							<div class="title">
-								<h2>{{$kategori}}</h2>
+								<h2>{!!$data['name']!!}</h2>
 								
 								
 							</div>
-							<p>{!!$data['name']!!}</p>
+							<p>{!!$data['isi']!!}</p>
 						</div>
 						<div class="col-lg-3 widget">
 							<hr class="space visible-md">
@@ -59,7 +59,7 @@
 							<hr class="space-sm">
 							<div class="menu-inner menu-inner-vertical menu-inner-image">
 								<ul>
-									@foreach(new_lainnya2() as $new_lainnya)
+									@foreach(new_lainnya($data['id']) as $new_lainnya)
 									<li>
 										<a href="{{url('news/'.$new_lainnya['link'])}}">
 											<img src="https://www.krakatausteel.com/public/images/news/" alt="">
