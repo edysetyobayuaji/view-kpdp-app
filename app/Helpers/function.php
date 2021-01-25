@@ -5,6 +5,16 @@ function url_linknya(){
     return $data;
 }
 
+function tentang_kami(){
+    $data=App\About::where('kategori','sekilas')->first();
+
+    return $data;
+}
+function barner(){
+    $data=App\Barner::orderBy('id','Desc')->paginate(3);
+
+    return $data;
+}
 function new_home(){
     $data=App\News::orderBy('id','Desc')->paginate(3);
 
@@ -23,6 +33,10 @@ function new_lainnya2(){
 
 function link_gambar($id){
     $data='http://localhost/Project/kpdp/public/file/news/'.$id;
+    return $data;
+}
+function link_barner($id){
+    $data='http://localhost/Project/kpdp/public/file/barner/'.$id;
     return $data;
 }
 
