@@ -54,6 +54,10 @@
                 margin-left: 4%;
                 margin-right: 4%;
             }
+            .news-home{
+                width:100%;
+                height:250px;
+            }
         }
 
         @media only screen and (max-width: 590px) {
