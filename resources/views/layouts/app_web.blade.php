@@ -29,6 +29,11 @@
             body{
                 background-image: linear-gradient(to right top, #eef2f9, #e0e6fb, #d8d8fb, #d6c9f7, #dab8f0);
             }
+            #logonya{
+                width:60%;
+                
+                
+            }
             #section{
                 margin-left: 4%;
                 margin-right: 4%;
@@ -73,30 +78,79 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="index.html">
-                    <img class="logo-default scroll-hide" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
-                    <img class="logo-default scroll-show" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
-                    <img class="logo-retina scroll-show" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
+                    <img id="logonya" class="logo-default scroll-hide" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
+                    
                 </a>
             </div>
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul id="main-menu">
                 	<li class="dropdown" id="li-nav">
-                        <a href="#">Produk</a>
+                        <a href="#">About KPdP</a>
                         <ul>
-							<li class=""><a href="viewcontent/17.html">Hot Rolled Coil/Plate</a>
+							<li class=""><a href="viewcontent/17.html">Sekilas KPdP</a>
 								<ul>
             					</ul>
 
 							</li>
-							<li class=""><a href="viewcontent/18.html">Cold Rolled Coil/Sheet</a>
+							<li class=""><a href="viewcontent/18.html">Visi Misi</a>
 								<ul></ul>
 							</li>
-                             
+                            <li class=""><a href="viewcontent/18.html">Coorporate Value</a>
+								<ul></ul>
+							</li>
+                            <li class=""><a href="viewcontent/18.html">Sertifikat</a>
+								<ul></ul>
+							</li>
+                           
             			</ul>
 
 					</li>
+                    <li class="" id="li-nav">
+                        <a href="#">Product</a>
+                    </li>
+                    <li class="dropdown" id="li-nav">
+                       <a href="#">Experience</a>
+                        <ul>
+                            <li class="dropdown" id="li-nav">
+                            <a href="viewcontent/17.html">Our Bussines</a>
+                            </li>
+                            <li class="dropdown-submenu" id="li-nav">
+                            <a href="viewcontent/17.html">Our Work</a>
+                                <ul>
+                                    <li class="" id="li-nav">
+                                        <a href="#" class="href">Product</a>
+                                    </li>
+                                    <li class="" id="li-nav">
+                                        <a href="#" class="href">Maintanace</a>
+                                    </li>  
+                                </ul>
+						    </li>
+                            <li class="dropdown-submenu" id="li-nav">
+                            <a href="viewcontent/17.html">Workshop</a>
+                                <ul>
+                                    <li class="" id="li-nav">
+                                        <a href="#" class="href">Capicity</a>
+                                    </li>
+                                    <li class="" id="li-nav">
+                                        <a href="#" class="href">Facillity</a>
+                                    </li>  
+                                </ul>
+						    </li>
+                            <li class="dropdown" id="li-nav">
+                            <a href="viewcontent/17.html">Experience</a>
+						    </li>
+                        </ul>
+                    </li>
+                    <li class="" id="li-nav">
+                        <a href="#">Facility</a>
+                    </li>
+                    <li class="" id="li-nav">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="" id="li-nav">
+                        <a href="#">Contact Us</a>
+                    </li>
                                                     
                 </ul>
                 
