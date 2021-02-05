@@ -17,6 +17,12 @@ class BrandaController extends Controller
         $kategori='News ';
         return view('news',compact('halaman','data','kategori'));
     }
+
+    public function news_all(){
+        $halaman='Semua Berita';
+        return view('news_all',compact('halaman'));
+    }
+
     public function about(request $request){
         $halaman='About KPDP';
         if($request->kategori==''){

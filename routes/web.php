@@ -13,6 +13,7 @@
 
 Route::get('/', 'BrandaController@index');
 Route::get('/about', 'BrandaController@about');
+Route::get('/news_all', 'BrandaController@news_all');
 Route::get('/news/{id}', 'BrandaController@news');
 
 Auth::routes();
