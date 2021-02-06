@@ -30,19 +30,9 @@
                 background-image: linear-gradient(to right top, #eef2f9, #e0e6fb, #d8d8fb, #d6c9f7, #dab8f0);
             }
             #logonya{
-                width:100%;
+                width:60%;
                 
                 
-            }
-            .menu-top-logo > .container > .menu-brand, .menu-top-logo .menu-right{
-                right:0%;
-                width:100%;
-                text-align: center;
-                padding-left: 42%;
-                padding-right: 42%;
-            }
-            .navi{
-                background: #729c1e;
             }
             #section{
                 margin-left: 4%;
@@ -88,14 +78,14 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="index.html">
-                    <img id="logonya"  src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
+                    <img id="logonya" class="logo-default scroll-hide" src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
                     
                 </a>
             </div>
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul id="main-menu">
-                	<li class="dropdown navi" id="li-nav">
+                	<li class="dropdown" id="li-nav">
                         <a href="#">About KPdP</a>
                         <ul>
 							<li class=""><a href="viewcontent/17.html">Sekilas KPdP</a>
@@ -164,7 +154,29 @@
                                                     
                 </ul>
                 
-               
+                <div class="menu-right">
+                    <div class="custom-area">
+                        Jl. Industri No. 5 P.O Box 14<br />
+                        Cilegon Banten 42435 Indonesia<br />
+                        
+                    </div>
+                   
+                    <form role="search" method="get" id="searchform" class="search-btn">
+                        <div class="search-box-menu">
+                            <input type="text" placeholder="Search ...">
+                            <i></i>
+                        </div>
+                    </form>
+                    <ul class="lan-menu">
+                        <li class="dropdown">
+                                                        <a href="#"><img src="{{url('public/web/images/id.png')}}" alt="lang" />ID </a>
+                                                        <ul>
+                                <li><a href="index.html"><img src="{{url('public/web/images/id.png')}}" alt="lang" />ID</a></li>
+                                <li><a href="index.html"><img src="{{url('public/web/images/en.png')}}" alt="lang" />EN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>

@@ -32,11 +32,11 @@ function new_lainnya2(){
 }
 
 function link_gambar($id){
-    $data='http://10.0.20.90/Project/kpdp/public/file/news/'.$id;
+    $data='http://192.168.43.121/Project/kpdp/public/file/news/'.$id;
     return $data;
 }
 function link_barner($id){
-    $data='http://10.0.20.90/Project/kpdp/public/file/barner/'.$id;
+    $data='http://192.168.43.121/Project/kpdp/public/file/barner/'.$id;
     return $data;
 }
 
