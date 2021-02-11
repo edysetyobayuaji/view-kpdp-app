@@ -43,6 +43,9 @@
             .tp-leftarrow{
                 padding-right:8%;
             }
+            .ks-group{
+                width:100%;
+            }
             .tp-rightarrow{
                 padding-right:0%;
             }
@@ -158,18 +161,10 @@
                 	<li class="dropdown navi" id="li-nav">
                         <a href="#">About KPdP</a>
                         <ul>
-							<li class=""><a href="viewcontent/17.html">Sekilas KPdP</a>
-								<ul>
-            					</ul>
-
-							</li>
-							<li class=""><a href="viewcontent/18.html">Visi Misi</a>
-								<ul></ul>
-							</li>
-                            <li class=""><a href="viewcontent/18.html">Coorporate Value</a>
-								<ul></ul>
-							</li>
-                            <li class=""><a href="viewcontent/18.html">Sertifikat</a>
+							<li class=""><a href="{{url('/about?kategori=sekilas')}}">Sekilas KPdP</a></li>
+							<li class=""><a href="{{url('/about?kategori=visi')}}">Visi Misi</a></li>
+                            <li class=""><a href="{{url('/about?kategori=corporate')}}">Coorporate Value</a></li>
+                            <li class=""><a href="{{url('/about?kategori=sertifikat')}}">Sertifikat</a>
 								<ul></ul>
 							</li>
                            

@@ -30,7 +30,12 @@ class BrandaController extends Controller
         }else{
             $kategori=$request->kategori;
         }
+        if($kategori=='visi'){
+            $judul='Visi dan Misi';
+        }else{
+            $judul=$kategori;
+        }
         $data=About::where('kategori',$kategori)->first();
-        return view('about',compact('halaman','kategori','data'));
+        return view('about',compact('halaman','kategori','data','judul'));
     }
 }

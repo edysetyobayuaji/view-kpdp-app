@@ -180,13 +180,26 @@
                     <div class="col-lg-6">
                         <img src="{{url('public/web/images/krasmart.png')}}" alt="" />
                     </div> -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
+                        <div class="title">
+                            <p>Krakatau Steel Group</p>
+                            
+                        </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
+                         <img class="ks-group"  src="{{url('public/web/images/ks.png')}}" alt="logo" />
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
+                        <img class="ks-group"  src="{{url('public/web/images/ks-kbs.png')}}" alt="logo" />
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
+                        <img class="ks-group"  src="{{url('public/web/images/ks-heal.png')}}" alt="logo" />
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="ks-group"  src="{{url('public/web/images/ks-kwt.png')}}" alt="logo" />
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="ks-group"  src="{{url('public/web/images/ks-khi.png')}}" alt="logo" />
                     </div>
                 </div>
             </div>
