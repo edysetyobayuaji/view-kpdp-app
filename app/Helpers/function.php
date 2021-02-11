@@ -20,6 +20,16 @@ function new_home(){
 
     return $data;
 }
+function new_all(){
+    $data=App\News::orderBy('id','Desc')->paginate(30);
+
+    return $data;
+}
+function pengumuman_home(){
+    $data=App\Pengumuman::orderBy('id','Desc')->paginate(3);
+
+    return $data;
+}
 function new_lainnya($id){
     $data=App\News::where('id','!=',$id)->orderBy('id','Desc')->paginate(5);
 
@@ -32,11 +42,11 @@ function new_lainnya2(){
 }
 
 function link_gambar($id){
-    $data='http://192.168.43.121/Project/kpdp/public/file/news/'.$id;
+    $data='http://localhost/Project/kpdp/public/file/news/'.$id;
     return $data;
 }
 function link_barner($id){
-    $data='http://192.168.43.121/Project/kpdp/public/file/barner/'.$id;
+    $data='http://localhost/Project/kpdp/public/file/barner/'.$id;
     return $data;
 }
 
@@ -55,6 +65,13 @@ function bulan_tahun($tgl){
     $bulan=date('F',strtotime($tgl));
     $tahun=date('Y',strtotime($tgl));
     $bln=substr($bulan,0,3);
+    return $bln.' '.$tahun;
+}
+function bulan_tahun_lengkap($tgl){
+    
+    $bulan=date('F',strtotime($tgl));
+    $tahun=date('Y',strtotime($tgl));
+    $bln=$bulan;
     return $bln.' '.$tahun;
 }
 

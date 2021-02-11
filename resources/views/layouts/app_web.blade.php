@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="{{url('public/web/css/contact-form.css')}}">
     <link rel="stylesheet" href="{{url('public/web/skin.css')}}">
     <link rel="icon" href="{{url('public/web/images/fav.png')}}">
+    <link rel="stylesheet" href="{{url('public/font-awesome/css/font-awesome.min.css')}}">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="{{url('public/Ionicons/css/ionicons.min.css')}}"> 
     		<!-- CSS STYLE-->
     <link rel="stylesheet" type="text/css" href="{{url('public/web/rs-plugin/css/style.css')}}" media="screen" />
     <link rel="stylesheet" type="text/css" href="{{url('public/web/rs-plugin/css/settings.css')}}" media="screen" />
@@ -29,17 +32,46 @@
             body{
                 background-image: linear-gradient(to right top, #eef2f9, #e0e6fb, #d8d8fb, #d6c9f7, #dab8f0);
             }
-            #logonya{
+            body > nav .menu-brand .logonya{
                 width:100%;
-                
-                
+                max-height: none;
+                display: block;
+            }
+            #barner-ok{
+                padding: 0% 4% 0% 4%;
+            }
+            .tp-leftarrow{
+                padding-right:8%;
+            }
+            .tp-rightarrow{
+                padding-right:0%;
+            }
+            .marquee{
+                background: #f5f9fb;
+                font-weight: bold;
+                color: #41419e;
+                text-transform: uppercase;
+                border-bottom: dotted 3px #8a7d7d;
+                border-top: dotted 3px #8a7d7d;
+            }
+            #marquee{
+                padding:0px;
+            }
+            #marqueegambar{
+                margin-bottom:2%;
+                background:#3e3e4e;
+                padding-top:2%;
+                padding-left:35%;
+                padding-right:35%;
             }
             .menu-top-logo > .container > .menu-brand, .menu-top-logo .menu-right{
                 right:0%;
                 width:100%;
                 text-align: center;
-                padding-left: 42%;
-                padding-right: 42%;
+                padding-left: 38%;
+                padding-right: 38%;
+                padding-top:4%;
+                padding-bottom:2%;
             }
             .navi{
                 background: #729c1e;
@@ -58,6 +90,16 @@
                 margin-right: 4%;
                 margin-top: 100px;
                 padding: 0px;
+
+            }
+            .title{
+                background-image: linear-gradient(to right top, #3d1066, #684b8e, #9585b5, #c8c1db, #ffffff);
+                padding-left:2%;
+                border-radius: 0% 0% 100% 0%;
+                
+            }
+            .title p{
+                color:#fff;
             }
             #main{
                 background-image: linear-gradient(to right top, #eef2f9, #e0e6fb, #d8d8fb, #d6c9f7, #dab8f0);
@@ -79,6 +121,24 @@
             .section-overflow-top > .container{
                 padding-top:120px;
             }
+            #marquee{
+                padding:0px;
+            }
+            #marqueegambar{
+                margin-bottom:2%;
+                background:#3e3e4e;
+                padding-top:2%;
+                padding-left:20%;
+                padding-right:20%;
+            }
+            .title{
+                background-image: linear-gradient(to right top, #3d1066, #684b8e, #9585b5, #c8c1db, #ffffff);
+                padding-left:2%;
+                
+            }
+            .title p{
+                color:#fff;
+            }
 
         }
 	</style>
@@ -87,10 +147,10 @@
     <nav class="menu-top-logo menu-fixed" data-menu-anima="fade-in" style="background-image: linear-gradient(to right top, #3d4e6b, #0f313e, #1e6c71, #698e84, #4d5d4a);">
         <div class="container">
             <div class="menu-brand">
-                <a href="index.html">
-                    <img id="logonya"  src="{{url('public/web/images/kpdp-white.png')}}" alt="logo" />
+               
+                    <img class="logonya"  src="{{url('public/web/images/kpdp.png')}}" alt="logo" />
                     
-                </a>
+               
             </div>
             <i class="menu-btn"></i>
             <div class="menu-cnt">
@@ -175,37 +235,31 @@
     
     <i class="scroll-top-btn scroll-top show"></i>
     <footer class="light" style="background-image: linear-gradient(to right top, #3d4e6b, #0f313e, #1e6c71, #698e84, #4d5d4a);">
-    <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h2>Cilegon Office</h2>
-                    Jl. Industri No. 5 P.O BOX 14<br/>
-                    Cilegon Banten 42435 Indonesia<br/>
-                    Tel (+62) 254 392159, 392003<br/>
-                    Fax (+62) 254 392178<br/>
-                    corsec@krakatausteel.com<br/>
+                    <h2>Home Office</h2>
+                    GEDUNG KE, JL. Asia Raya Kav. O.3, Cilegon 42435, Indonesia<br> 
+                    Warnasari, Kec. Cilegon, Kota Cilegon, Banten 42443<br>
+                    Tel (+62) 254 394100<br/>
+                    PO BOX 147<br>
+                    
                     
                 </div>
                 <div class="col-lg-4">
-                    <h2>Jakarta Office</h2>
-                    Gedung Krakatau Steel, 4th Floor<br/>
-                    Jl. Jend. Gatot Subroto Kav. 54<br/>
-                    Jakarta Selatan 12950 Indenesia<br/>
-                    Tel. (+62) 21 5221255 (Hunting)<br/>
-                    Fax. (+62) 21 5200876, 5204208, 5200793<br/>
+                    <img class="logonya"  src="{{url('public/web/images/kpdp.png')}}" alt="logo" /> 
                 </div>
                 <div class="col-lg-4">
-                    <h2>Surabaya Branch Office</h2>
-                    Jl. KH Mas Mansyur No. 229<br/>
-                    Surabaya 60162, Indonesia<br/>
-                    Tel. (+62) 31 3534057<br/>
-                    Fax. (+62) 31 3534058<br/>
+                    <h2>Head Office</h2>
+                    JL. Jend. Gatot Subroto Kav. 54 Jakarta - 12950, Indonesia<br/>
+                    Tel. (+62) 254 5221246, 5201605<br/>
+                    PO BOX 147<br>
                 </div>
             </div>
         </div>
         <div class="footer-bar">
             <div class="container">
-                <span>© 2020 PT Krakatau Steel (Persero) Tbk</span>
+                <span>© 2020 PT KPdP</span>
                 
                 <span>
                     <div class="icon-links icon-social icon-links-grid social-colors">

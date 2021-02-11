@@ -18,7 +18,7 @@
 					<div class="row">
 						<div class="col-lg-9">
 							<div class="title">
-								<h2>{!!$data['name']!!}</h2>
+								<p><i class="fa fa-newspaper-o"></i> {!!$data['name']!!}</p>
 								
 								
 							</div>
