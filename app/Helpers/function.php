@@ -15,6 +15,16 @@ function barner(){
 
     return $data;
 }
+function kategori_produk(){
+    $data=App\Kategoriproduk::orderBy('id','Desc')->get();
+
+    return $data;
+}
+function cek_kategori_produk($id){
+    $data=App\Kategoriproduk::where('id',$id)->first();
+
+    return $data['name'];
+}
 function new_home(){
     $data=App\News::orderBy('id','Desc')->paginate(3);
 
@@ -47,6 +57,10 @@ function link_gambar($id){
 }
 function link_barner($id){
     $data='http://localhost/Project/kpdp/public/file/barner/'.$id;
+    return $data;
+}
+function link_gambar_produk($id){
+    $data='http://localhost/Project/kpdp/public/file/produk/'.$id;
     return $data;
 }
 

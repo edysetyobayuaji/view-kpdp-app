@@ -88,6 +88,10 @@
                 width:100%;
                 height:400px;
             }
+            .img-produk{
+                width:100%;
+                height:400px;
+            }
             .barner-judul{
                 margin-left: 4%;
                 margin-right: 4%;
@@ -101,8 +105,31 @@
                 border-radius: 0% 0% 100% 0%;
                 
             }
+            .title-sub{
+                background-image: linear-gradient(to right top, #957eef, #a06de2, #9585b5, #c8c1db, #ffffff);
+                padding-left:2%;
+                border-radius: 15px 50px ;
+                
+            }
             .title p{
                 color:#fff;
+            }
+            .title-sub p{
+                color:#fff;
+            }
+            .isi-sub{
+                margin-left:2%;
+                margin-right:2%;
+                margin-top:1%;
+                margin-bottom:1%;
+                width:98%;
+                background:#f5fbfb;
+                border:solid 1px #f0f0f5;
+                padding:1%;
+            }
+
+            .isi-sub p{
+                color:#000;
             }
             #main{
                 background-image: linear-gradient(to right top, #eef2f9, #e0e6fb, #d8d8fb, #d6c9f7, #dab8f0);
@@ -172,7 +199,7 @@
 
 					</li>
                     <li class="" id="li-nav">
-                        <a href="#">Product</a>
+                        <a href="{{url('/produk')}}">Product</a>
                     </li>
                     <li class="dropdown" id="li-nav">
                        <a href="#">Experience</a>
