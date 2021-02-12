@@ -54,4 +54,39 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-base section-color" id="section" style="background:#fff">
+            <div class="container">
+                <div class="row" data-anima="fade-bottom" data-time="1000">
+                    <div class="col-lg-12">
+                        <div class="title">
+                          <p><i class="fa fa-volume-up"></i> Pengumuman {{nama_perusahaan()}}</p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 align-right align-left-md">
+                        <hr class="space-sm hidden-md" />
+                         <a href="#" class="btn-text active">Semua Pengumuman</a>
+                    </div> -->
+                </div>
+                <hr class="space" />
+                <div class="grid-list" data-columns="3" data-columns-md="2" data-columns-sm="1" data-anima="fade-bottom" data-time="1000">
+                    <div class="grid-box">
+                    @foreach(pengumuman_home() as $pengumuman)
+                        <div class="grid-item">
+                            <div class="cnt-box cnt-box-info boxed" data-href="viewnews/2413.html">
+                                <div class="caption">
+                                <h2>{{$pengumuman['name']}}</h2>
+                                    <div class="cnt-info">
+                                        <div><span>Date</span><span>{{tgl($pengumuman['tanggal'])}} {{bulan_tahun_lengkap($pengumuman['tanggal'])}}</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                        
+                                                
+                    </div>
+                </div>
+            </div>
+        </section>
         

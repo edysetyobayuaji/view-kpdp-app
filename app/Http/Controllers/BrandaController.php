@@ -38,4 +38,15 @@ class BrandaController extends Controller
         $data=About::where('kategori',$kategori)->first();
         return view('about',compact('halaman','kategori','data','judul'));
     }
+
+    public function kontak(request $request){
+        $halaman='Contact Us';
+        
+        $kategori='Contact Us';
+    
+        $judul=$kategori;
+       
+        $data=About::where('kategori','kontak')->first();
+        return view('kontak',compact('halaman','kategori','data','judul'));
+    }
 }

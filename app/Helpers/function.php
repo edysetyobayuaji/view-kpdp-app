@@ -52,15 +52,15 @@ function new_lainnya2(){
 }
 
 function link_gambar($id){
-    $data='http://localhost/Project/kpdp/public/file/news/'.$id;
+    $data='http://adminkpdp.uconbeton.com/public/file/news/'.$id;
     return $data;
 }
 function link_barner($id){
-    $data='http://localhost/Project/kpdp/public/file/barner/'.$id;
+    $data='http://adminkpdp.uconbeton.com/public/file/barner/'.$id;
     return $data;
 }
 function link_gambar_produk($id){
-    $data='http://localhost/Project/kpdp/public/file/produk/'.$id;
+    $data='http://adminkpdp.uconbeton.com/public/file/produk/'.$id;
     return $data;
 }
 

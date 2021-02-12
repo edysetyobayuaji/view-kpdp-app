@@ -18,26 +18,11 @@
 					<div class="row">
 						<div class="col-lg-9">
 							<div class="title">
-								<p><i class="fa fa-shopping-cart"></i> {{$judul}}</p>
+								<p><i class="fa fa-phone"></i> {{$judul}}</p>
 								
 								
 							</div>
-							<p>dsdsds</p>
-							@foreach($data as $data)
-								<div class="col-lg-12">
-									<div class="title-sub">
-										<p><i class="fa fa-tasks"></i> {{$data['name']}}</p>
-										
-										
-									</div>
-									<div class="isi-sub">
-										<img src="{{link_gambar_produk($data['gambar'])}}" class="img-produk">
-										<p>{!!$data['isi']!!}</p>
-									</div>
-								</div>
-								
-							@endforeach
-
+							<p>{!!$data['name']!!}</p>
 						</div>
 						<div class="col-lg-3 widget">
 							<hr class="space visible-md">
@@ -47,20 +32,44 @@
 								</div>
 							</form>
 							<hr class="space-sm">
-							<h3>Our Work</h3>
+							<h3>Categories</h3>
 							<hr class="space-xs">
 							<div class="menu-inner menu-inner-vertical">
 								<ul>
-									@foreach(kategori_produk() as $kategori_produk)
 									<li>
-										<a href="{{url('produk?kategori='.$kategori_produk['id'])}}">{{$kategori_produk['name']}}</a>
+										<a href="{{url('about?kategori=sekilas')}}">Sekilas KPDP</a>
 									</li>
-									@endforeach
-									
+									<li>
+										<a href="{{url('about?kategori=visi')}}">Visi Misi</a>
+									</li>
+									<li>
+										<a href="{{url('about?kategori=corporate')}}">Corporate Value</a>
+									</li>
+									<li>
+										<a href="{{url('about?kategori=sertifikat')}}">Sertifikat</a>
+									</li>
 										
 								</ul>
 							</div>
-							@include('tampil_samping')
+							<hr class="space-sm">
+							<h3>
+							
+								Berita Terbaru
+													</h3>
+							<hr class="space-sm">
+							<div class="menu-inner menu-inner-vertical menu-inner-image">
+								<ul>
+									@foreach(new_lainnya2() as $new_lainnya)
+									<li>
+										<a href="{{url('news/'.$new_lainnya['link'])}}">
+											<img src="https://www.krakatausteel.com/public/images/news/" alt="">
+											<span>{{tgl_lainnya($new_lainnya['tanggal'])}}</span>
+											{{$new_lainnya['name']}}
+										</a>
+									</li>
+									@endforeach
+								</ul>
+							</div>
 							
 						</div>
 					</div>

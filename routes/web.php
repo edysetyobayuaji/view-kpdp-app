@@ -13,6 +13,8 @@
 
 Route::get('/', 'BrandaController@index');
 Route::get('/about', 'BrandaController@about');
+Route::get('/kontak', 'BrandaController@kontak');
+Route::get('/pengumuman', 'BrandaController@pengumuman');
 Route::get('/produk', 'ProdukController@index');
 Route::get('/news_all', 'BrandaController@news_all');
 Route::get('/news/{id}', 'BrandaController@news');

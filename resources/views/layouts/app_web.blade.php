@@ -241,7 +241,7 @@
                         <a href="{{url('news_all')}}">News</a>
                     </li>
                     <li class="" id="li-nav">
-                        <a href="#">Contact Us</a>
+                        <a href="{{url('/kontak')}}">Contact Us</a>
                     </li>
                                                     
                 </ul>
