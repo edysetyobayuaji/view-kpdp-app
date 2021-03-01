@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PT KPDP</title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="{{url('public/web/css/bootstrap-grid.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/style.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/glide.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/content-box.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/media-box.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/css/contact-form.css')}}">
-    <link rel="stylesheet" href="{{url('public/web/skin.css')}}">
-    <link rel="icon" href="{{url('public/web/images/fav.png')}}">
-    <link rel="stylesheet" href="{{url('public/font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/bootstrap-grid.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/style.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/glide.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/content-box.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/media-box.css')}}">
+    <link rel="stylesheet" href="{{url('web/css/contact-form.css')}}">
+    <link rel="stylesheet" href="{{url('web/skin.css')}}">
+    <link rel="icon" href="{{url('web/images/fav.png')}}">
+    <link rel="stylesheet" href="{{url('font-awesome/css/font-awesome.min.css')}}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{url('public/Ionicons/css/ionicons.min.css')}}"> 
+    <link rel="stylesheet" href="{{url('Ionicons/css/ionicons.min.css')}}"> 
     		<!-- CSS STYLE-->
-    <link rel="stylesheet" type="text/css" href="{{url('public/web/rs-plugin/css/style.css')}}" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{url('public/web/rs-plugin/css/settings.css')}}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{url('web/rs-plugin/css/style.css')}}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{url('web/rs-plugin/css/settings.css')}}" media="screen" />
 	<style>
         @media only screen and (min-width: 600px) {
             .section-overflow-top > .container{
@@ -178,7 +178,7 @@
         <div class="container">
             <div class="menu-brand">
                
-                    <img class="logonya"  src="{{url('public/web/images/kpdp.png')}}" alt="logo" />
+                    <img class="logonya"  src="{{url('web/images/kpdp.png')}}" alt="logo" />
                     
                
             </div>
@@ -269,7 +269,7 @@
                     
                 </div>
                 <div class="col-lg-4">
-                    <img class="logonya"  src="{{url('public/web/images/kpdp.png')}}" alt="logo" /> 
+                    <img class="logonya"  src="{{url('web/images/kpdp.png')}}" alt="logo" /> 
                 </div>
                 <div class="col-lg-4">
                     <h2>Head Office</h2>
@@ -295,19 +295,19 @@
         </div>
 
         <!--<link rel="stylesheet" href="https://www.krakatausteel.com/web/media/icons/iconsmind/line-icons.min.css">-->
-        <script src="{{url('public/web/scripts/jquery.min.js')}}"></script>
-        <script src="{{url('public/web/scripts/main.js')}}"></script>
-        <script src="{{url('public/web/scripts/parallax.min.js')}}"></script>
-        <script src="{{url('public/web/scripts/glide.min.js')}}"></script>
-        <script src="{{url('public/web/scripts/imagesloaded.min.js')}}"></script>
-        <script src="{{url('public/web/scripts/custom.js')}}"></script>
-        <script src="{{url('public/web/scripts/progress.js')}}"></script>
-        <script src="{{url('public/web/scripts/tab-accordion.js')}}"></script>
-        <script src="{{url('public/web/scripts/magnific-popup.min.js')}}"></script>
-        <script src="{{url('public/web/scripts/contact-form/contact-form.js')}}"></script>
+        <script src="{{url('web/scripts/jquery.min.js')}}"></script>
+        <script src="{{url('web/scripts/main.js')}}"></script>
+        <script src="{{url('web/scripts/parallax.min.js')}}"></script>
+        <script src="{{url('web/scripts/glide.min.js')}}"></script>
+        <script src="{{url('web/scripts/imagesloaded.min.js')}}"></script>
+        <script src="{{url('web/scripts/custom.js')}}"></script>
+        <script src="{{url('web/scripts/progress.js')}}"></script>
+        <script src="{{url('web/scripts/tab-accordion.js')}}"></script>
+        <script src="{{url('web/scripts/magnific-popup.min.js')}}"></script>
+        <script src="{{url('web/scripts/contact-form/contact-form.js')}}"></script>
         	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-    <script type="text/javascript" src="{{url('public/web/rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script>
-    <script type="text/javascript" src="{{url('public/web/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('web/rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('web/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 	<script type="text/javascript">
 		var revapi;
 		jQuery(document).ready(function() {
