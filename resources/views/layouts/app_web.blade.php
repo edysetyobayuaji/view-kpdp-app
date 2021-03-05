@@ -178,7 +178,7 @@
         <div class="container">
             <div class="menu-brand">
                
-                    <img class="logonya"  src="{{url('web/images/kpdp.png')}}" alt="logo" />
+                    <img class="logonya"  src="{{url('web/images/kpdp-white0.png')}}" alt="logo" />
                     
                
             </div>
@@ -186,56 +186,29 @@
             <div class="menu-cnt">
                 <ul id="main-menu">
                 	<li class="dropdown navi" id="li-nav">
-                        <a href="#">About KPdP</a>
+                        <a href="">About KPdP</a>
                         <ul>
 							<li class=""><a href="{{url('/about?kategori=sekilas')}}">Sekilas KPdP</a></li>
-							<li class=""><a href="{{url('/about?kategori=visi')}}">Visi Misi</a></li>
+							<li class=""><a href="{{url('/about?kategori=visi')}}">Visi Misi& Nilai</a></li>
                             <li class=""><a href="{{url('/about?kategori=corporate')}}">Coorporate Value</a></li>
                             <li class=""><a href="{{url('/about?kategori=sertifikat')}}">Sertifikat</a>
+                            <li class=""><a href="{{url('/about?kategori=sertifikat')}}">Our Strange</a>
 								<ul></ul>
 							</li>
                            
             			</ul>
 
 					</li>
-                    <li class="" id="li-nav">
-                        <a href="{{url('/produk')}}">Product</a>
-                    </li>
-                    <li class="dropdown" id="li-nav">
-                       <a href="#">Experience</a>
+                    <li class="dropdown navi" id="li-nav">
+                        <a href="">Our Bussines</a>
                         <ul>
-                            <li class="dropdown" id="li-nav">
-                            <a href="viewcontent/17.html">Our Bussines</a>
-                            </li>
-                            <li class="dropdown-submenu" id="li-nav">
-                            <a href="viewcontent/17.html">Our Work</a>
-                                <ul>
-                                    <li class="" id="li-nav">
-                                        <a href="#" class="href">Product</a>
-                                    </li>
-                                    <li class="" id="li-nav">
-                                        <a href="#" class="href">Maintanace</a>
-                                    </li>  
-                                </ul>
-						    </li>
-                            <li class="dropdown-submenu" id="li-nav">
-                            <a href="viewcontent/17.html">Workshop</a>
-                                <ul>
-                                    <li class="" id="li-nav">
-                                        <a href="#" class="href">Capicity</a>
-                                    </li>
-                                    <li class="" id="li-nav">
-                                        <a href="#" class="href">Facillity</a>
-                                    </li>  
-                                </ul>
-						    </li>
-                            <li class="dropdown" id="li-nav">
-                            <a href="viewcontent/17.html">Experience</a>
-						    </li>
+                                <li>
+                                <a href="viewcontent/17.html">Our Work</a>
+                                </li>
+                                <li>
+                                <a href="{{url('/produk')}}">Product</a>
+                                </li>
                         </ul>
-                    </li>
-                    <li class="" id="li-nav">
-                        <a href="#">Facility</a>
                     </li>
                     <li class="" id="li-nav">
                         <a href="{{url('news_all')}}">News</a>
@@ -243,7 +216,6 @@
                     <li class="" id="li-nav">
                         <a href="{{url('/kontak')}}">Contact Us</a>
                     </li>
-                                                    
                 </ul>
                 
                
