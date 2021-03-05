@@ -185,7 +185,7 @@
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul id="main-menu">
-                	<li class="dropdown navi" id="li-nav">
+                	<li class="dropdown" id="">
                         <a href="">About KPdP</a>
                         <ul>
 							<li class=""><a href="{{url('/about?kategori=sekilas')}}">Sekilas KPdP</a></li>
@@ -199,7 +199,7 @@
             			</ul>
 
 					</li>
-                    <li class="dropdown navi" id="li-nav">
+                    <li class="dropdown" id="li-nav">
                         <a href="">Our Bussines</a>
                         <ul>
                                 <li>
